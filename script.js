@@ -74,4 +74,4 @@ function saveChatHistory(userMessage, aiResponse) {
     const historyItem = document.createElement('li');
     historyItem.textContent = `You: ${userMessage} | Response: ${aiResponse}`;
     historyList.appendChild(historyItem);
-                                 }
+}
