@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exams Prof</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-container">
+                <img src="profile-placeholder.png" alt="Profile" class="profile-image">
+                <button id="history-button">Chat History</button>
+            </div>
+            <h1>Exams Prof</h1>
+            <p class="description">Welcome, Exams Prof is here to help you.</p>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-box" id="chat-box"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Ask your question...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+
+        <div id="chat-history" class="hidden">
+            <h2>Chat History</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
